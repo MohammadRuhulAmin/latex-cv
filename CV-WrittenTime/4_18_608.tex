@@ -1,0 +1,199 @@
+\documentclass[a4paper,11pt]{article}
+ 
+\usepackage{fontawesome5}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{fontawesome}
+\usepackage{xcolor}
+
+% change color hyperlinks
+\hypersetup{%
+    colorlinks=true,% hyperlinks will be black
+    urlcolor=[rgb]{0.04,0,0.5},
+    urlbordercolor=[rgb]{0.7,0.7,0.7},% hyperlink borders will be gray
+    pdfborderstyle={/S/U/W 0.5}% border style will be underline of width 1pt
+}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+    \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+    \item\small{
+        \textbf{#1}{: #2 \vspace{-2pt}}
+    }
+}
+
+\newcommand{\resumeItemPaper}[1]{
+    \item\small{
+            {#1}
+    }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+    \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+        \textbf{#1}       & #2                 \\
+        \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{\href{}{\Large Md. Ruhul Amin}} & \href{mailto:ruhulamin.cs.dev@gmail.com}{ruhulamin.cs.dev@gmail.com} \\
+\textbf{Software Engineer} & $+880-1322352864$ \\
+\href{https://www.linkedin.com/in/mohammad-ruhul-amin-0b9200231//}{\faLinkedin}
+\href{https://github.com/TNTx1995}{\faGithub}
+\href{https://www.youtube.com/@ruhulshschighermathsolutio5799}{\faIcon{youtube} } 
+\href{https://sites.google.com/view/coding-profile/coding-skill}{\faIcon{code-branch}}
+
+  &\today \\
+\end{tabular*}
+
+%-----------EXPERIENCE-----------------
+\section{Work Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Business Automation Ltd. (BA Systems)}{Rajshahi,BN}
+{ Software Engineer }{06/2019 – present}
+\resumeItemListStart
+\resumeItem{Geographic information system Development}{Developed GIS project , Map integration , map mutation , Map Editing, Area Calculation using (openlayer, turf.js,d3.js,postgresql and postgis)}
+\resumeItem{Data Engineering}{Developed Mail processing management system and API data processing management  using Apache nifi}
+\resumeItem{Microservice Development}{Integrated Oath 2 authentication in microservices for providing API to the  valid client}
+\resumeItemListEnd
+
+
+\resumeSubheading
+{Bangladesh Ordnance Factories}{Gazipur,BN}
+{Software and Performance Engineer}{07/2021 – 11/2022}
+\resumeItemListStart
+\resumeItem
+{Web Application Development}{Developed BOF Product Tracker. This application helps to track the location and life cycle  of  computer , CC Camera , Printer,Photocopier etc . product Life cycle can be printed as report.Developed Employee Task Scheduler . The authority can create over time duty roster for the employees monthly , weekly and daily . There is a dashboard for daily duty roster.The overtime bill report can be generated from this application.}
+\resumeItem{Software Performance Testing}{Used to perform black box testing for custom ERP solutions.The testing result evaluated according to Software Requirement Specifications}
+\resumeItem{Project Coordination}{Project Co-ordinator at BOF ERP Solutions . Collecting the requirements , reports from clients and convert the statements to the business logic was the main responsibility.}
+\resumeItemListEnd
+
+\resumeSubheading
+{OK-Technologies}{Dhaka,BN}
+{Junior Software Enginner}{5/2020 – 7/2021}
+\resumeItemListStart
+\resumeItem{Job Responsibilities}{Developed Dynamic Portfolio web site for a reputed company.
+Developed features for existing client projects.
+Created  Admin package, payment gateway package  using laravel.}
+
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Rajshahi University of Engineering and Technology - FECE}{Rajahahi, BD}
+{Master of Science Degree In Computer Science and Engineering}{03/2023 - Present}
+\resumeSubheading
+{American International University-Bangladesh - FST}{Dhaka, BD}
+{Bachelor in Computer Science and Engineering; CGPA : 3.27/4.00}{01/2016 - 10/2020}
+% \resumeSubheading
+% {Notre Dame College,Dhaka}
+% {}{09/2012 - 02/2013}
+\resumeSubheading
+{Notre Dame College,Dhaka - Science}{Dhaka, BD }
+{Higher Secondary School Certificate;GPA : 5.00/5.00}{04/2013 - 06/2015}
+\resumeSubheading
+{Mohammadput Preparatory School and College - Science}{Dhaka, BD}
+{Secondary School Certificate;GPA : 5.00/5.00}{01/2011 - 01/2013}
+\resumeSubHeadingListEnd
+
+%-----------PUBLICATIONS-----------------
+\section{Paper Publication}
+\resumeSubHeadingListStart
+\item{
+\textbf{Topic : Augmented Reality}
+\resumeItemListStart
+\resumeItemPaper{ AR Lab/Practical Simulation Book for Physics Chemistry and Computer Science. https://dl.acm.org/doi/10.1145/3542954.3542969}
+
+\resumeItemListEnd
+}
+\resumeSubHeadingListEnd
+
+
+
+%-----------AWARDS-----------------
+\section{Awards}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Banglalink SDG Hackathon 3.0}{}
+{2nd Runner up}{2022}
+\resumeSubHeadingListEnd
+
+%--------PROGRAMMING SKILLS------------
+\section{Skills}
+\resumeSubHeadingListStart
+\item{ \textbf{Programming languages}{:Node.js,Apache Nifi, C++, Openlayers, Turf.js , d3.js ,JavaScript , Python, \LaTeX, mysql, postgresql , postgis, HTML, CSS} }
+\resumeSubHeadingListEnd
+
+%--------REFERENCES------------
+\section{References}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Name Surname}{Email : \href{gmail@gmail.edu}{gmail@gmail.edu}}
+{Institute}{}
+
+\resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
+
+
+%https://dl.acm.org/doi/10.1145/3542954.3542969
