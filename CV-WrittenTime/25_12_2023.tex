@@ -1,0 +1,268 @@
+\documentclass[a4paper,11pt]{article}
+ 
+\usepackage{fontawesome5}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{fontawesome}
+\usepackage{xcolor}
+
+
+% change color hyperlinks
+\hypersetup{%
+    colorlinks=true,% hyperlinks will be black
+    urlcolor=[rgb]{0.04,0,0.5},
+    urlbordercolor=[rgb]{0.7,0.7,0.7},% hyperlink borders will be gray
+    pdfborderstyle={/S/U/W 0.5}% border style will be underline of width 1pt
+}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+    \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+    \item\small{
+        \textbf{#1}{: #2 \vspace{-2pt}}
+    }
+}
+
+\newcommand{\resumeItemPaper}[1]{
+    \item\small{
+            {#1}
+    }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+    \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+        \textbf{#1}       & #2                 \\
+        \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{\href{}{\Large Md. Ruhul Amin}} & \href{mailto:ruhul.cs.dev@gmail.com}{ruhul.cs.dev@gmail.com} \\
+\textbf{Software Engineer} & $+880-1322352864$ \\
+\href{https://www.linkedin.com/in/mohammad-ruhul-amin-0b9200231/}{\faLinkedin}
+\href{https://github.com/MohammadRuhulAmin}{\faGithub}
+\href{https://www.youtube.com/@ruhulshschighermathsolutio5799}{\faIcon{youtube} } 
+\href{https://sites.google.com/view/coding-profile/coding-skill}{\faIcon{code-branch}}
+
+  &\today \\
+\end{tabular*}
+
+%-----------EXPERIENCE-----------------
+\section{Work Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{\href{https://ba-systems.com/}{Business Automation Ltd. (BA Systems)}}
+{Rajshahi,Bangladesh}
+{Major Responsibilities as a  Software Engineer }{11/2022 – present}
+\resumeItemListStart
+\resumeItem{ETL development}{
+Extract data from different source like different databases,get api,complex excel,pdf file and transform data into json to load in postgresql,mysql,mongodb.
+}
+\resumeItem{Geographic information system Development}{
+Developed GIS project for Map integration, map mutation, Map Editing, Area Calculation using (openlayers, turf.js,d3.js,postgresql and postgis)
+}
+\resumeItem{Data Engineering}{
+Developed Mail processing management system and API data processing management  using Apache nifi
+}
+\resumeItem{Microservice Development}{Integrated Oauth 2 authentication in microservices for providing API to the  valid client}
+\resumeItemListEnd
+\resumeSubheading
+{\href{http://www.bof.gov.bd/}{Bangladesh Ordnance Factories}}{Gazipur, Bangladesh}
+{Major Responsibilities as a Software and Performance Engineer}{07/2021 – 11/2022}
+\resumeItemListStart
+\resumeItem
+{Web Application Development}{Developed BOF Product Tracker. This application helps to track the location and life cycle  of  computer, CC Camera, Printer, Photocopier etc. product Life cycle can be printed as report.Developed Employee Task Scheduler. The authority can create over time duty roster for the employees monthly, weekly and daily. There is a dashboard for daily duty roster. The overtime bill report can be generated from this application.}
+\resumeItem{Software Testing}{Used to perform black box testing for custom ERP solutions. The testing result evaluated according to Software Requirement Specifications}
+\resumeItem{Project Coordination}{Project Co-ordinator at BOF ERP Solutions. Collecting the requirements, reports from clients and convert the statements to the business logic was the main responsibility.}
+\resumeItemListEnd
+
+\resumeSubheading
+{\href{https://ok-technologies.com/}{OK-Technologies}}{Dhaka,Bangladesh}
+{Major Responsibilities as a Junior Software Engineer}{5/2020 – 7/2021}
+\resumeItemListStart
+\resumeItem{Job Responsibilities}{Developed Dynamic Portfolio web site for a reputed company.
+Developed features for existing client projects.
+Created  Admin package, payment gateway package  using laravel.}
+
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+%--------------coding profile start---------------
+\section{Coding Profile}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{\href{https://github.com/MohammadRuhulAmin}{Github Profile}}
+{}
+ {https://github.com/MohammadRuhulAmin}{}
+\resumeItemListStart
+\resumeItem{https://github.com/MohammadRuhulAmin/nodepostregesql-openlayerIntegration}{after plotting geojson on open street map, the individual plot can be selected to do CRUD operation.
+(Node.js,Turf.js,Openlayers,PostGIS,d3.js)
+}
+\resumeItem{https://github.com/MohammadRuhulAmin/bofictStoreInventoryManagementSystem}{
+BOF ICT Inventory Management System.(PHP,Laravel Framework)
+}
+\resumeItem{https://leetcode.com/AlfaBinomialx/}{
+solved 150+ coding problems using C++. solved 100 database problems using mysql.}
+
+\resumeItemListEnd
+\resumeSubheading
+{\href{https://sites.google.com/view/coding-profile/coding-skill}{Problem Solving Profile}}{}
+{https://sites.google.com/view/coding-profile/coding-skill}{}
+\resumeItemListStart
+\resumeItem
+{Problem Solving and Programming Contest}
+{Solved 700+ problems using C++ in different online judges like Code forces,CSES,leetcode,lightoj}
+
+\resumeItemListEnd
+
+
+\resumeSubHeadingListEnd
+
+
+%-------------coding profile end-----------------
+
+
+%--------PROGRAMMING SKILLS------------
+\section{Skills}
+\resumeSubHeadingListStart
+\item{ \textbf{Backend Technology:}
+\begin{itemize}
+    \item \textbf{ETL Tool:}Apache Nifi,Apache Kafka,Debezium (cdc)  
+    \item \textbf{Programming Languages:}JavaScript,SQL(MySQL,PostgrSQL),Python,C++,PHP
+    \item \textbf{JavaScript Libraries:}Openlayers (frontend web mapper),Turf.js,d3.js,JQuery
+    \item \textbf{Framework/RTE:}Laravel,Node.js
+    \item \textbf{Operating System:} Linux Administration
+    \item \textbf{Containerization Tool:} Docker
+\end{itemize}
+}
+\item {\textbf{Frontend Technology:} HTML,CSS,Vue.js
+}
+
+\item{ \textbf{Teaching Skill:}
+    {Physics,Math(Higher Secondary School Level)
+    \begin{itemize}
+        \item \textbf{YouTube Channel:}\href{https://www.youtube.com/@ruhulshschighermathsolutio5799}{Ruhul's hsc higher math Solution\\Link:(https://www.youtube.com/@ruhulshschighermathsolutio5799)}
+    \end{itemize}
+}}
+\resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{\href{https://www.ruet.ac.bd/}{Rajshahi University of Engineering and Technology - FECE}}{Rajshahi, Bangladesh}
+{Master of Science Degree In Computer Science and Engineering}{03/2023 - Present}
+\resumeSubheading
+{\href{https://www.aiub.edu/}{American International University-Bangladesh - FST}}   {Dhaka, Bangladesh}
+{Bachelor in Computer Science and Engineering; CGPA : 3.27/4.00} {01/2016 - 10/2020}
+
+\resumeSubheading
+{\href{https://ndc.edu.bd/}{Notre Dame College, Dhaka - Science}}{Dhaka, Bangladesh }
+{Higher Secondary School Certificate;GPA : 5.00/5.00}{04/2013 - 06/2015}
+\resumeSubheading
+{\href{https://mpsc.edu.bd/}{Mohammadpur Preparatory School and College - Science}}{Dhaka, Bangladesh}
+{Secondary School Certificate;GPA : 5.00/5.00}{01/2011 - 01/2013}
+\resumeSubHeadingListEnd
+
+
+%-----------PUBLICATIONS-----------------
+\section{Paper Publication}
+\resumeSubHeadingListStart
+\item{
+\textbf{Research Area : Augmented Reality}
+\resumeItemListStart
+\resumeItemPaper{ \textbf{AR Lab/Practical Simulation Book for Physics Chemistry and Computer Science}.[By capturing the images of related text book using smart phone, the related educational and informative pre recorded videos will be displayed.] https://dl.acm.org/doi/10.1145/3542954.3542969}
+
+\resumeItemListEnd
+}
+\resumeSubHeadingListEnd
+
+
+
+%-----------AWARDS-----------------
+\section{Awards}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{\href{https://www.dhakatribune.com/business/2022/09/03/banglalink-sdg-hackathon-code-for-a-cause-30-finale-held}{Banglalink SDG Hackathon 3.0}}{2nd Runner up}
+{Project Topic: Automation of Agro Farm in Rooftop}{2022}
+
+
+
+\resumeSubHeadingListEnd
+% [The vegetables can be produced in the roof top in an automated system.]
+
+
+%--------REFERENCES------------
+\section{References}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{\href{https://cse.buet.ac.bd/faculty_list/detail/ali_nayeem}{Dr. Muhammad Ali Nayeem}}
+{Email : \texttt{ali\_nayeem@cse.buet.ac.bd}}
+{Assistant Professor-Department of CSE}
+{Bangladesh University of Engineering and Technology}
+\resumeSubHeadingListEnd
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{\href{http://rurfid.ru.ac.bd/ru_profile/public/teacher/22706111/profile}{Md Omar Faruqe}}{Email : \href{farueq@ru.ac.bd}{farueq@ru.ac.bd}}
+{Associate Professor-Department of CSE}{University of Rajshahi}
+
+
+\resumeSubHeadingListEnd
+%-------------------------------------------
+\end{document}
+
+
+%https://dl.acm.org/doi/10.1145/3542954.3542969
