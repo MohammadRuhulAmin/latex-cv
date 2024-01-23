@@ -1,0 +1,367 @@
+\documentclass[a4paper,11pt]{article}
+ 
+\usepackage{fontawesome5}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{fontawesome}
+\usepackage{graphicx}
+\usepackage{ragged2e}
+\usepackage[export]{adjustbox}
+\usepackage{enumerate}
+
+
+
+
+% change color hyperlinks
+\hypersetup{%
+    colorlinks=true,% hyperlinks will be black
+    urlcolor=[rgb]{0.04,0,0.5},
+    urlbordercolor=[rgb]{0.7,0.7,0.7},% hyperlink borders will be gray
+    pdfborderstyle={/S/U/W 0.5}% border style will be underline of width 1pt
+}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+    \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+    \item\small{
+        \textbf{#1}{: #2 \vspace{-2pt}}
+    }
+}
+
+\newcommand{\resumeItemPaper}[1]{
+    \item\small{
+            {#1}
+    }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+    \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+        \textbf{#1}       & #2                 \\
+        \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+% \textbf{\href{}{\Large Mumtahina Mostaque}} & \href{mailto:mumtahina.mostaque@gmail.com}{mumtahina.mostaque@gmail.com} \\
+% \textbf{} & $+880-1794582698$ \\
+
+
+%   &\today \\
+% \end{tabular*}
+
+
+
+
+
+
+
+
+
+ \begin{enumerate}[i]
+    \begin{center}
+       \textbf{\Huge \scshape Mumtahina Mostaque} \\ \vspace{4pt}
+    \end{center}
+    \includegraphics[width=3cm,valign=t]{riya_cv_x.jpg}
+            \hfill
+            \begin{tabular}[t]{@{}l}
+              \faIcon{linkedin}
+                \href{www.linkedin.com/in/aminruhulmd}{\underline{https://www.linkedin.com/in/mumtahinamostaqueriya}} $  $ \\
+                \faIcon{envelope}
+                \href{mumtahina.mostaque@gmail.com} 
+                {\underline{mumtahina.mostaque@gmail.com}}$ $ \\
+                {\faWhatsapp} \underline{$+8801794582698$} \\ 
+                \faMapMarker  Permanent Address: \smallskip
+                Uposhohor, Rajshahi, Bangladesh \\ 
+                % \today
+                
+            
+            \end{tabular}    
+\end{enumerate}
+
+ 
+\section{Career objective}
+\resumeSubHeadingListStart
+\justifying{With four years of practical HR experience and academic proficiency in finance and banking, I aim
+to integrate these skills strategically within organizations. My dedication is to utilize a diverse skill
+set to enhance human capital management, boost employee satisfaction, and contribute to
+organizational financial success. I aim to bridge HR practices with financial objectives, fostering an
+environment of synergy between people and finances for sustained organizational growth. I am
+enthusiastic about applying this distinctive skill combination to address challenges in both HR and
+finance, creating innovative solutions for the ever-evolving dynamics of today's workplace and
+financial landscape.}
+\resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Work Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{\href{https://mdinfotechbd.com/}{MDinfotech}}
+{Rajshahi,Bangladesh}
+{Major Responsibilities as an HR Executive }{09/2020 – present}
+\resumeItemListStart
+
+\resumeItem{\underline{Human Resources Planning}}{
+\begin{justify}
+\vspace{-8pt}
+    Developing and administering human resources plans and procedures, organizing and controlling the activities and actions of the HR department. 
+\vspace{-8pt}
+\end{justify}
+    
+}
+\resumeItem{\underline{Documenting Rules and Regulations}}{
+    \begin{justify}
+    \vspace{-8pt}
+        Creating documentation for rules and regulations, arranging training for employees, creating an employee handbook and overseeing the creation of activities involving regulation review.
+        \vspace{-8pt}
+    \end{justify}
+
+}
+\resumeItem{\underline{Training and Development}}{ 
+\begin{justify}
+\vspace{-8pt}
+    Creating a detailed training plan that includes learning goals, timelines, delivery methods, and assessment methods and establishing  peer-to-peer feedback systems for employees.
+    \vspace{-8pt}
+\end{justify}
+
+}
+\resumeItem{\underline{Creating Safe Work Environment}}{ 
+
+  \begin{justify}
+  \vspace{-8pt}
+        Responsible for protecting employees’ safety at work, both physical and emotional, ensuring employees protection from- harassment, discrimination, intimidation, and exploitation and providing information on procedures and protocol for any potential emergency scenarios.
+\vspace{-8pt}
+  \end{justify}
+
+
+}
+\resumeItem{\underline{Maintaining Disciplinary Actions}}{
+
+  \begin{justify}
+  \vspace{-8pt}
+        Handling delicate and complicated disciplinary procedures and terminations fairly and consistently to keep situations under control and prevent any additional conflict or escalation. 
+  \vspace{-8pt}
+  \end{justify}
+
+}
+
+\resumeItem{\underline{Payroll Management}}{ 
+
+   \begin{justify}
+   \vspace{-8pt}
+        Calculating taxes and collecting hours of each payday, reimbursing expenses, adding raises and bonuses.
+    \vspace{-8pt}
+   \end{justify}
+
+}
+
+\resumeItem{\underline{Hiring and Onboarding}}{
+
+   \begin{justify}
+   \vspace{-8pt}
+        Hire new talent who align with the organization’s overall values, and support them to settle in their roles.
+    \vspace{-8pt}
+   \end{justify}
+
+}
+
+\resumeItemListEnd
+{{}{}}
+{}
+\vspace{2pt}
+{\textit{Additional Responsibilities} }{}
+\vspace{-8pt}
+\resumeItemListStart
+
+\resumeItem{\underline{Managing Company Expenses}}{
+
+ \begin{justify}
+ \vspace{-8pt}
+        Establishing company policies, having employees submit receipts, issuing corporate credit cards to employees for routine purchases, controlling expenditures and making payments to employees for approved expenses.
+\vspace{-8pt}
+ \end{justify}
+
+
+}
+\resumeItem{\underline{Cash Management}}{
+
+ \begin{justify}
+ \vspace{-8pt}
+        Management of cash and other current assets, forecasting the cash inflows and outflows to ensure that there is neither shortage nor surplus of cash with the firm. 
+    \vspace{-8pt}
+ \end{justify}
+
+}
+\resumeItem{\underline{Budgetary Control and Planning}}{
+
+    \begin{justify}
+    \vspace{-8pt}
+        Calculating net income, listing monthly expenses, labeling fixed and variable expenses, determining average monthly costs for each expense and making adjustments.
+        \vspace{-8pt}
+    \end{justify}
+
+}
+
+\resumeItemListEnd
+
+
+
+\resumeSubheading
+{\href{https://www.sonalibank.com.bd/}{Sonali Bank}}{Rajshahi, Bangladesh}
+{Major Responsibilities as an Intern}{01/2022 – 04/2022}
+\resumeItemListStart
+\item{
+Worked with several departments in the bank, including international relations, loans administration, bank credits, corporate banking, retail sails etc.}
+\item{Assessed clients' financial situations to develop strategic financial planning solutions.}
+\item{Evaluated the candidates' job history, income, and overall credit worthiness.}
+
+\item{Organized financial analysis, market research and due diligence filings materials, Accepted deposits and processed account withdrawals.}
+\item{Served the bank’s customers with their daily money requirements, and prepared and examined financial records.} 
+\resumeItemListEnd
+% more 
+\resumeSubheading
+{\href{http://www.rakub.org.bd/}{Rajshahi Krishi Unnayan Bank}}{Rajshahi, Bangladesh}
+{Major Responsibilities as an Intern}{09/2018 – 12/2018}
+\resumeItemListStart
+\item{
+    \begin{justify}
+        Worked on the School Banking Account to develop the mentality of savings among students who are studying in school and to bring them into banking to contribute to the financial activities of our country. This concept is growing awareness among students.
+    \end{justify}
+}
+\item{
+    \begin{justify}
+        Assessed in SME banking, Revolving Crops Credit (RCC), Farmer's Credit Limit (FCL), Special Motivational Refinancing Scheme for Agricultural sector, Agricultural Loan, Green Banking, Agricultural Loans for Freedom Fighter
+    \end{justify}
+}
+\item{
+\begin{justify}
+    Assessed in Foreign Aided loans and credits for farmers.
+
+\end{justify}
+
+}
+\resumeItemListEnd
+
+
+%-----------PUBLICATIONS-----------------
+\resumeItemListEnd
+
+
+\section{Research Area}
+\resumeSubHeadingListStart
+\textbf{Loan Disbursement and Recovery Performance of Sonali Bank Limited: A Study of Greater Road Branch, Rajshahi - }
+\justifying {Gathering knowledge about the existing banking business in Sonali Bank Limited through the loan disbursement and recovery system.
+Evaluating the policy, rules, and regulations.
+Gathering knowledge about the loan activities of Sonali Bank Ltd., Greater Road Branch,
+Rajshahi. Analyzing loan disbursement and loan recovery of the branch. Finding out the amount of loan sanctioned, disbursed, and recovered by the branch. Comparing the overall loan disbursement and recovery position of the branch.}
+\resumeSubHeadingListEnd
+\resumeSubHeadingListStart
+\textbf {Employee Job Satisfaction of Rajshahi Krishi Unnayan Bank: A Study of Greater Road Kazihata Branch, Rajshahi - }
+\justifying{ Ascertaining the degree of overall job satisfaction prevailing among the bank officers. Eliciting officers' views on the different factors of job satisfaction being identified as motivation/hygiene factors.Analyzing the determinants of job satisfaction in RAKUB. Identifying the problems relating to job satisfaction of the employees of RAKUB. Provided some suggestions for improving the level of job satisfaction.}
+
+\resumeSubHeadingListEnd
+
+%-Education --------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{\href{https://iba-ru.ac.bd/}{Institute of Business Administration, University of Rajshahi}}{Rajshahi, Bangladesh}
+{Master of Business Administration;  CGPA: 3.81/4.00 }{2019 - 2022}
+\resumeSubheading
+{\href{https://vu.edu.bd/}{{Varendra University}}}{Rajshahi, Bangladesh}
+{Bachelor of Business Administration; CGPA: 3.98/4.00 }{2015 - 2018}
+\resumeSubheading
+{\href{https://rc.edu.bd/}{Rajshahi College - Business Studies}}{Rajshahi, Bangladesh}
+{Higher Secondary Certificate; GPA: 5.00/5.00}{2014}
+\resumeSubheading
+{\href{http://www.rgghsh.edu.bd/}{Rajshahi Govt. Girls’ High School, 
+Helenabad, Rajshahi - Science}} {Rajshahi, Bangladesh}
+{Secondary School Certificate; GPA: 5.00/5.00}{2012}
+\resumeSubHeadingListEnd
+
+% \section{Awards}
+% \resumeSubHeadingListStart
+% \resumeSubheading
+% {Advertisement Completion}{2nd Runner up}
+% {Advertisement competition arranged by Varendra University}{2017}
+% \resumeSubHeadingListEnd
+
+%--------PROGRAMMING SKILLS------------
+\section{Skills and Abilities}
+\resumeSubHeadingListStart
+\item{ \textbf{Technical Skills: }{Proficient at office tools: Word, PowerPoint, Excel. Participated in a 6 months course in Computer Office Application 
+from Chartered Computer Education Center, Rajshahi, Bangladesh.}}
+
+\resumeSubHeadingListEnd
+
+%--------REFERENCES------------
+\section{References}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{\href{}{Professor Md. Mohsin-Ul Islam, \textit{PhD} }}
+{ \href{head.ba@vu.edu.bd}{mohsin.iba.ru@gmail.com}}
+{Institute of Business Administration}{University of Rajshahi}
+
+\resumeSubheading
+{\href{}{Associate Professor Kaniz Habiba Afrin, \textit{PhD}}}
+{ \href{head.ba@vu.edu.bd}{head.ba@vu.edu.bd}}
+{Head of the Department of Business Administration}{Varendra University}
+
+
+
+
+\resumeSubHeadingListEnd
+
+
+\end{document}
